@@ -1,0 +1,25 @@
+{
+    "name": "bryanajamesdelaluya/exchangeratesapi",
+    "description": "A simple Laravel wrapper for Exchange Rates API - for my personal use",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bryanjamesdelaluya",
+            "email": "delaluya0.bryanjames@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bryanjamesdelaluya\\ExchangeRatesAPI\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bryanjamesdelaluya\\ExchangeRatesAPI\\ExchangeRatesAPIServiceProvider"
+            ]
+        }
+    }
+}
