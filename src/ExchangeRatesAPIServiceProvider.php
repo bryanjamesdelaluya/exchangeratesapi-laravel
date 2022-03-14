@@ -15,7 +15,7 @@ class ExchangeRatesAPIServiceProvider extends ServiceProvider
     public function boot() 
     {
         $this->publishes([
-            __DIR__ . '/../config/ExchangeRatesAPI.php' => config_path('exchangerates.php'),
+            __DIR__ . '/../config/exchangerates.php' => config_path('exchangerates.php'),
             __DIR__ . '/../samples/ExchangeRatesAPIController.php' => app_path('Http/Controllers/API/ExchangeRatesAPIController.php')
         ]);
     }
